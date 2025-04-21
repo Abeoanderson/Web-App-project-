@@ -1,4 +1,4 @@
-# CS-3110
-stuff for class project in CS3110
+# Web app project for CS 3110
+Calorie and fitness tracker web app. Feel free to see how things are going
 
 [Link](https://fitnessTracker.crabdance.com) to web page.
