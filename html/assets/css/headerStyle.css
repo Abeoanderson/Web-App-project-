@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+}
+
+.title {
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-links {
+    display: flex;
+    gap: 15px;
+}
+
+.link {
+    color: aqua;
+}

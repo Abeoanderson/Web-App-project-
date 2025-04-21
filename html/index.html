@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="assets/css/headerStyle.css">
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="icon" href="assets/images/weightFavicon.png" type="image/png">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="login">
+        <a href="index.html" class="title">Dashboard</a>
+        <div class="login-links">
+            <a href="login.html" class="link">Login</a>
+            <a href="signup.html" class="link">Signup</a>
+        </div>
+    </nav>
+
+    <!-- Dashboard Sections -->
+    <div class="dashboard">
+        <input type="date" id="datePicker" />
+        <button id="prevDay">←</button>
+        <button id="nextDay">→</button>
+        <div id="mealsList"></div>  
+        <section class="box">
+            <h2>Log A Meal:</h2>
+            <p>You have had:</p>
+            <ul id="mealList">
+                <!-- Dynamically added food list items will appear here -->
+            </ul>
+            <label for="food">Enter Meal:</label>
+            <input type="text" id="mealName" placeholder="Meal Name">
+            <input type="number" id="mealCalories" placeholder="Calories">
+            <input type="number" id="mealProtein" placeholder="Protein (g)">
+            <button id="addButton">Add Meal</button>
+
+            <h3>Total Calories: <span id="totalCalories">0</span></h3>
+        </section>
+
+        <section class="box">
+            <h2>Workouts</h2>
+            <p>Add Your Workout For the Day!</p>
+            <button>Add Workout</button>
+        </section>
+
+        <section class="box">
+            <h2>Achievements</h2>
+            <p>Show a list of achievements in icon form here.</p>
+            <button>See Details</button>
+        </section>
+    </div>
+
+    <footer>
+        <p>Fitness Tracker: CS 3110</p>
+        <p>Gabe Williams & Abe Anderson</p>
+        <p>We need to figure out how to get this cleaned up and on the bottom, I just wanted to include it because we
+            will in final.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

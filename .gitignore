@@ -1,0 +1,8 @@
+mydb.sqlite
+passwd.sqlite
+node_modules
+ssl/
+cert.pem
+csr.pem
+key.pem
+package*
